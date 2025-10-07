@@ -53,6 +53,8 @@ Once running, visit:
 http://localhost:3000
 or test endpoints directly via Postman
 
+---
+
 ## 🧠 API Endpoints
 1. POST /api/generate_text
 Description: Simulates an AI text generation response.
@@ -118,6 +120,7 @@ Response:
   "last_updated": "2025-10-07T12:45:00.000Z"
 }
 
+---
 
 ## 🧪 Example Testing with cURL
 
@@ -131,11 +134,15 @@ curl -X POST http://localhost:3000/api/analyze_sentiment \
 
 curl http://localhost:3000/api/structured_response
 
+---
+
 ## 🧰 Use Cases
 Practice API test automation
 Validate OpenAPI spec compliance
 Simulate AI model behaviors (latency, errors, JSON schema)
 Train/test QA tools such as Postman, or Cypress
+
+---
 
 ## 🧩 Optional: Browser Sandbox
 If you just want a visual mock API playground, open mock_api.html in your browser.
