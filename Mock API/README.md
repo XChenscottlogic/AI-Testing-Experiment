@@ -41,19 +41,19 @@ mock-api/
 - npm available in terminal (`npm -v`)
 
 ### 2️⃣ Install dependencies
-```bash
+[Optional Command] Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 npm install
 
-3️⃣ Start the server
+### 3️⃣ Start the server
 node server.js
 
-4️⃣ Verify
+### 4️⃣ Verify
 Once running, visit:
 
 http://localhost:3000
 or test endpoints directly via Postman
 
-🧠 API Endpoints
+## 🧠 API Endpoints
 1. POST /api/generate_text
 Description: Simulates an AI text generation response.
 Request:
@@ -119,7 +119,7 @@ Response:
 }
 
 
-🧪 Example Testing with cURL
+## 🧪 Example Testing with cURL
 
 curl -X POST http://localhost:3000/api/generate_text \
   -H "Content-Type: application/json" \
@@ -131,13 +131,13 @@ curl -X POST http://localhost:3000/api/analyze_sentiment \
 
 curl http://localhost:3000/api/structured_response
 
-🧰 Use Cases
+## 🧰 Use Cases
 Practice API test automation
 Validate OpenAPI spec compliance
 Simulate AI model behaviors (latency, errors, JSON schema)
 Train/test QA tools such as Postman, or Cypress
 
-🧩 Optional: Browser Sandbox
+## 🧩 Optional: Browser Sandbox
 If you just want a visual mock API playground, open mock_api.html in your browser.
 It includes Tailwind CSS styling and lets you test endpoints with no setup.
 
