@@ -1,0 +1,346 @@
+[
+  {
+    "uuid": "82831e5e-61c1-4461-809e-7d005895ab06",
+    "test_suite_name": "Quantum Entanglement Inquiry",
+    "method": "POST",
+    "url": "http://localhost:3000/api/generate_text",
+    "headers": {},
+    "path_params": {},
+    "query_params": {},
+    "request_body": {
+      "prompt": "What is quantum entanglement?"
+    },
+    "test_cases": [
+      {
+        "test_case_desc": "Test with all valid inputs as specified in API information",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "What is quantum entanglement?"
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Positive"
+        ],
+        "uuid": "847c4b05-346a-48ae-ae25-566e6a379ea4",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with wrong HTTP method",
+        "method": "GET",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "What is quantum entanglement?"
+        },
+        "categories": [
+          "Other"
+        ],
+        "test_types": [
+          "Other"
+        ],
+        "uuid": "14e45e25-b528-4573-b605-4c5fb3b02cbd",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with given field missing - json_body.prompt",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {},
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Missing fields"
+        ],
+        "uuid": "8f7de9d1-975f-483b-a682-4f1b7d0095bb",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with valid input for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "What is quantum entanglement?"
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Positive"
+        ],
+        "uuid": "cfb667d0-9910-4417-9bab-4e736fb76601",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with empty string for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": ""
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Null/zero/empty value"
+        ],
+        "uuid": "60800b5d-7a92-44d0-87dc-1572695e634b",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with null value for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": null
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Null/zero/empty value"
+        ],
+        "uuid": "dd1ab05c-4cc2-4f7b-8cd2-d45bc3f015d1",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with all capital letters for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "WHAT IS QUANTUM ENTANGLEMENT?"
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Invalid value"
+        ],
+        "uuid": "f09bb508-a5e1-41b5-a992-2d9ce6b7c511",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with all lowercase letters for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "what is quantum entanglement?"
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Invalid value"
+        ],
+        "uuid": "78cafa81-8c67-4145-bd2d-dc1c86740b85",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with non-English characters for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "Qu\u00e8st\u00eeon ab\u00f4ut quant\u016bm \u0113nt\u00e5nglem\u00ebnt?"
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Invalid value"
+        ],
+        "uuid": "babafb6d-094e-4247-87f6-935b8eaf6f84",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with a very long string for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Overflow"
+        ],
+        "uuid": "a50f09c5-8f71-4235-b3ae-7e415f1aa146",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with an integer value for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": 12345
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Data type"
+        ],
+        "uuid": "1047b1c9-f6cd-475f-aae2-561ffcaf9b67",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with leading and trailing spaces for 'prompt' field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "   What is quantum entanglement?   "
+        },
+        "categories": [
+          "Functional"
+        ],
+        "test_types": [
+          "Negative",
+          "Invalid value"
+        ],
+        "uuid": "bb0191fb-f483-474f-b922-c82d5b953745",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with numeric value for prompt field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": 12345
+        },
+        "categories": [
+          "Other"
+        ],
+        "test_types": [
+          "Semantic"
+        ],
+        "uuid": "e3329e32-a476-4089-96b1-dc8b7f414988",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with special characters in prompt field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "What is quantum entanglement&?"
+        },
+        "categories": [
+          "Other"
+        ],
+        "test_types": [
+          "Semantic"
+        ],
+        "uuid": "1b1afc90-4905-4f6e-aea7-8dee0bab0a3a",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with prompt field exceeding character limit",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        },
+        "categories": [
+          "Other"
+        ],
+        "test_types": [
+          "Semantic"
+        ],
+        "uuid": "088c1f13-95ed-421f-92e8-c940e5f3db85",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with empty prompt field",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": ""
+        },
+        "categories": [
+          "Other"
+        ],
+        "test_types": [
+          "Semantic"
+        ],
+        "uuid": "5cee9ac6-b834-4e83-b3a3-bc0e71da0c04",
+        "assertion": null
+      },
+      {
+        "test_case_desc": "Test with prompt field containing only whitespace characters",
+        "method": "POST",
+        "url": "http://localhost:3000/api/generate_text",
+        "headers": {},
+        "path_params": {},
+        "query_params": {},
+        "request_body": {
+          "prompt": "         "
+        },
+        "categories": [
+          "Other"
+        ],
+        "test_types": [
+          "Semantic"
+        ],
+        "uuid": "b3c27a54-bded-4aea-a9aa-3f1abaf008c1",
+        "assertion": null
+      }
+    ]
+  }
+]
