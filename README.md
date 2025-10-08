@@ -6,12 +6,14 @@ A brief summary of a testing tool in test design, automation, environment and ex
 |------------------------------|---------|-----------|---------|---------|
 |**Open Source**               |❌       |✅        |         |         |
 |**SUT Type**                  |Traditional App (No AI)         |           |         |         |
+|**AI Models**                 |Unclear. Foundational models along with their own pre-trained models        |           |         |         |
 |**Primary Focus**             |API/UI Functional Testing         |           |         |         |
 |**Installation Prerequisite** |- Kusho account</br> - Kusho UI Test Recorder as a Chrome extension  |           |         |         |
-|**Supported Languages**       | Java, Python, C#  |           |         |         |
-|**Supported Platform**        |-Playwright</br> -Cypress</br> -Selenium</br>        |           |         |         |
+|**Supported Languages**       | Java</br> Python</br> C#  |           |         |         |
+|**Supported Platform**        |Playwright</br> Cypress</br> Selenium</br>        |           |         |         |
 |**Officail Link**             | https://docs.kusho.ai/       |           |         |         |
 |**Research Report**           | https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/main/KushoAI/README.md      |           |         |         |
+|**Company Profile**           |Based in San Francisco (United States)</br> Founded in 2023       |           |         |         |
 
 ## 	Test Design ##
 | Test Design                               | KushoAI | TestCraft | Maestro | Postbot |
@@ -45,5 +47,6 @@ A brief summary of a testing tool in test design, automation, environment and ex
 |-------------------------------------------|---------|-----------|---------|---------|
 |**Execution Environment**                  |KushoAI platform         |           |         |         |
 |**Support Multi-thread execution**         |✅         |           |         |         |
+|**Dedect defects**                         |❌         |           |         |         |
 |**Generate Test Report**                   |✅         |           |         |         |
 |**Generate Test Run Dashboard**            |✅         |           |         |         |
