@@ -47,7 +47,7 @@ KushoAI is an AI-powered tool that auto-generates API and UI test suites from sp
 
 ---
 
-## 2. UI Testing
+### II. UI Testing
 
 - Users can record actions on the web; AI generates Playwright scripts from recordings.
  **Note:** reliability is low in current demos (many unexplained failures)  
@@ -55,7 +55,7 @@ KushoAI is an AI-powered tool that auto-generates API and UI test suites from sp
 
 ---
 
-## 3. Typical Use Cases
+## 2. Typical Use Cases
 
 - Quickly generate baseline API tests  
 - Automate regression and smoke suites  
@@ -64,7 +64,7 @@ KushoAI is an AI-powered tool that auto-generates API and UI test suites from sp
 
 ---
 
-## 4. Pros
+## 3. Pros
 
 - Big time savings compared to hand-coding tests to create automation from scratch 
 - Flexible input formats (specs, Postman, cURL)  
@@ -74,7 +74,7 @@ KushoAI is an AI-powered tool that auto-generates API and UI test suites from sp
 
 ---
 
-## 5. Cons & Limitations
+## 4. Cons & Limitations
 
 - **Unstable UI testing:** Current UI tests are inconsistent and prone to flakiness.
 - **Feature limitations:** Critical capabilities such as CI/CD integration, advanced reporting, and end-to-end testing are restricted to the Enterprise plan.
@@ -84,7 +84,7 @@ KushoAI is an AI-powered tool that auto-generates API and UI test suites from sp
 
 ---
 
-## 6. Pricing Snapshot
+## 5. Pricing Snapshot
 
 - Freemium tier for experimentation  
 - Enterprise tier unlocks CI/CD, reporting, advanced testing
@@ -93,7 +93,7 @@ KushoAI is an AI-powered tool that auto-generates API and UI test suites from sp
 
 ---
 
-## 7. Recommendation
+## 6. Recommendation
 
 **✅ Recommended For:**  
 Teams wanting rapid API test coverage with minimal setup.
