@@ -2,6 +2,7 @@
 
 **Summary (one line)**  
 KushoAI is an AI-powered tool that auto-generates API and UI test suites from specs or recordings; strong in API coverage, but UI features are still brittle.
+
 **Link:** https://docs.kusho.ai/
 
 ---
