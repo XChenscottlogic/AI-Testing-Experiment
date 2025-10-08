@@ -31,7 +31,7 @@ A brief summary of a testing tool in test design, automation, environment and ex
 |-------------------------------------------|---------|-----------|---------|---------|
 |**Generate Test Automation Framework**     |❌          |           |         |         |
 |**Generate API Test Automation Scripts**   |❌          |           |         |         |
-|**Generate UI Test Automation Scripts**    |❌         |           |         |         |
+|**Generate UI Test Automation Scripts**    |✅          |           |         |         |
 |**Refactor Existing Code**                 |❌          |           |         |         |
 |**Assist Debugging**                       |❌          |           |         |         |
 
@@ -45,7 +45,7 @@ A brief summary of a testing tool in test design, automation, environment and ex
 ## 	Test Execution ##
 | Test Execution                            | KushoAI | TestCraft | Maestro | Postbot |
 |-------------------------------------------|---------|-----------|---------|---------|
-|**Execution Environment**                  |KushoAI platform         |           |         |         |
+|**Execution Environment**                  |KushoAI platform for API testing; UI testing package can be downloaded and run in IDE         |           |         |         |
 |**Support Multi-thread execution**         |✅         |           |         |         |
 |**Dedect defects**                         |❌         |           |         |         |
 |**Generate Test Report**                   |✅         |           |         |         |
