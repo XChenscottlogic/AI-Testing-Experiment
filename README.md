@@ -3,7 +3,7 @@
 ## Mock API
 A simple mock API is available to use for AI testing tool experiments. See "README.md" inside of the folder for details.
 
-## Mock UI
+## Mock UI (testing-explorer)
 A mock frontend system is available to use for AI testing tool experiments. 
 ### Git submodule
 testing-explorer is a git submodule. If cloning this repo, you will get an empty testing-explorer directory, so the following needs to be done:
