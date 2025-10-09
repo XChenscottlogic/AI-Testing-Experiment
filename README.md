@@ -50,3 +50,9 @@ A brief summary of a testing tool in test design, automation, environment and ex
 |**Dedect defects**                         |❌         |           |         |         |
 |**Generate Test Report**                   |✅         |           |         |         |
 |**Generate Test Run Dashboard**            |✅         |           |         |         |
+
+### Git submodule
+testing-explorer is a git submodule. If cloning this repo, you will get an empty testing-explorer directory, so the following needs to be done:
+
+1. git submodule init
+2. git submodule update
