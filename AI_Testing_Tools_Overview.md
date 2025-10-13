@@ -14,7 +14,7 @@ A brief summary of a testing tool in test design, automation, environment and ex
 |**Supported Languages**       | Java</br> Python</br> C#  |  JS</br> Python</br> C#</br> Java</br> TS         |  Actions written in .yaml file       |JavaScript          |
 |**Supported Platform**        |Playwright</br> Cypress</br> Selenium</br>        |  Playwright</br> Cypress</br> Selenium</br>         | Can be used no matter what framework the team uses        |Postman         |
 |**Officail Link**             | https://docs.kusho.ai/       |  https://home.testcraft.app/         |  https://maestro.dev/       |https://www.postman.com/product/postbot/         |
-|**Research Report**           | https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/main/KushoAI/README.md      |  https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/main/TestCraft/README.md        |         |https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/main/Postbot/README.md         |
+|**Research Report**           | https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/main/KushoAI/README.md      |  https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/main/TestCraft/README.md        | https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/main/Maestro/README.md         |https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/main/Postbot/README.md         |
 |**Company Profile**           |Based in San Francisco (United States)</br> Founded in 2023       |    N/A       | N/A        |Developed by Postman in 2023         |
 
 ## 	Test Design ##
