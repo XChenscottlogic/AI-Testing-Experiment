@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test';
+import { APP_URL } from './config';
 
 test.describe('Test group', () => {
   test('seed', async ({ page }) => {
-    // generate code here.
-     await page.goto('https://testerbud.com/practice-login-form');
+     await page.goto(APP_URL);
   });
 });
