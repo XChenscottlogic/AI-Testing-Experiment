@@ -30,7 +30,6 @@ Through a chat-based interface and special slash ("/") commands, users can gener
   - `/generate` – create JS code  
   - `/explain` – explain selected code  
   - `/fix` – suggest fixes  
-  - `/help` – access assistant documentation  
 - Offers direct actions:
   - *Paste code at cursor*  
   - *Copy code*  
@@ -78,7 +77,7 @@ Through a chat-based interface and special slash ("/") commands, users can gener
 
 ✅ **Recommended For:**  
 - Manual QA engineers looking to learn web test automation using JavaScript.  
-- Teams needing quick code generation and debugging support.  
+- Teams who have already used Testim needing quick code generation and debugging support.  
 
 ⚠️ **Use Caution If:**  
 - Your would like to create end-to-end tests or an automation test framework.  
