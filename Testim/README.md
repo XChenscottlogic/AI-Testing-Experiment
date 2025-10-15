@@ -13,6 +13,9 @@ Through a chat-based interface and special slash ("/") commands, users can gener
 ## 1. Capabilities Overview
 
 - AI-powered **code generation**, **explanation**, and **error fixing** for JavaScript test steps.  
+  ![code generation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Testim/Screenshot%20Generate%20Code.png)
+  ![explanation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Testim/Screenshot%20Explain.png)
+  ![error fixing](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Testim/Screenshot%20Fix%20the%20code.png)
 - Supports Testim-specific steps such as:
   - Add Custom Action  
   - Add Custom Validation  
@@ -22,6 +25,7 @@ Through a chat-based interface and special slash ("/") commands, users can gener
   - Validate Download  
   - Custom Condition  
 - Integrates **OpenAI’s generative AI** into Testim’s UI via chat pane.  
+  ![chat pane](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Testim/Screenshot%20Testim%20Copilot%20.png)
 - Allows both **natural language prompts** and **slash commands**:
   - `/generate` – create JS code  
   - `/explain` – explain selected code  
