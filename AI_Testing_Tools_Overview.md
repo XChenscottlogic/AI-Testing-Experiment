@@ -1,6 +1,8 @@
 # AI Testing Tools Overview
 A brief summary of a testing tool in test design, automation, environment and execution. </br>
 ✅Yes ❌No 🚫N/A
+⚠️ \* Supported by the tool’s existing functionality, not AI-powered.
+
 
 ## Features ##
 | Feature                      |KushoAI  |TestCraft  |Maestro |Postbot   |AI Test Case and Data Generator|NVIDIA NeMo Data Designer  |Testim Copilot Coding Assistant  |Playwright Agents| Mabl  |
@@ -53,4 +55,3 @@ A brief summary of a testing tool in test design, automation, environment and ex
 |**Generate Test Report**                   |✅      |❌         |✅       |❌      |❌                             |❌                        |✅*                                  |✅       |✅*   |
 |**Generate Test Run Dashboard**            |✅      |❌         |✅       |❌      |❌                             |❌                        |✅*                                  |✅       |✅*   |
   
-⚠️ \* Supported by the tool’s existing functionality, not AI-powered.
