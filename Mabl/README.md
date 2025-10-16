@@ -12,7 +12,10 @@ Mabl is an AI-powered intelligent test automation platform that integrates machi
 ### I. Features
 
 #### 🔹 AI-Powered Test Creation
-- **GenAI Test Creation Agent:** Automatically generates web, mobile and API tests from natural language prompts.  
+- **GenAI Test Creation Agent:** Automatically generates web, mobile and API tests from natural language prompts.
+  **UI Test Generation**
+  No human input is required to generate a test based on a workflow, for example, Mabl decides to navigate to 'News' on BBC website and then verify the content of the first article.
+  ![UI Test Generation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Generate%20Steps.png)
 - **Model-Based Element Recognition:** Builds adaptive models of UI elements rather than relying on static selectors.  
 - **Expert System + ML Fusion:** Combines rules-based heuristics with real-time AI decision-making for resilient test automation.  
 - **Auto-Healing:** Automatically repairs test scripts when UI or API structures change.  
@@ -22,6 +25,9 @@ Mabl is an AI-powered intelligent test automation platform that integrates machi
 - Supports OpenAPI, GraphQL, Postman, and custom API schema uploads.  
 - Auto-generates tasks, assertions, and data variables.  
 - Integrates dynamic parameters and variable substitution.
+![Define API Test](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Create%20API%20testing.png)
+![API Test Generation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20AI%20Generation%20for%20API%20test.png)
+![API Test Assertion](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Generated%20Assertions.png)
 
 #### 🔹 Visual Find (AI-Based Element Detection)
 - Uses AI to identify elements visually, rather than relying on selectors or text attributes. Visual find is currently supported only for tap steps in mobile tests. 
@@ -45,6 +51,8 @@ Mabl is an AI-powered intelligent test automation platform that integrates machi
 - Suggests root causes and failure reasons for browser, mobile, and API tests.  
 - Analyzes logs, screenshots, variables, request/response data, and previous passing runs for comparison.  
 - Supported for browser, mobile, and API tests; not supported for performance or crawler plan failures.  
+![Auto Test Failure Analysis](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Analyse%20Test%20Failure.png)
+
 
 #### 🔹 AI-Based Reporting & Test Impact Analysis
 - Identifies which areas of an application are most affected by recent changes.  
