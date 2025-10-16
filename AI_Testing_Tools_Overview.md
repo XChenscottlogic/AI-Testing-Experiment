@@ -1,6 +1,6 @@
 # AI Testing Tools Overview
 A brief summary of a testing tool in test design, automation, environment and execution. </br>
-✅Yes ❌No 🚫N/A
+✅Yes ❌No 🚫N/A </br> 
 ⚠️ \* Supported by the tool’s existing functionality, not AI-powered.
 
 
