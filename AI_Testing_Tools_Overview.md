@@ -53,4 +53,4 @@ A brief summary of a testing tool in test design, automation, environment and ex
 |**Generate Test Report**                   |✅      |❌         |✅       |❌      |❌                             |❌                        |✅*                                  |✅       |✅*   |
 |**Generate Test Run Dashboard**            |✅      |❌         |✅       |❌      |❌                             |❌                        |✅*                                  |✅       |✅*   |
   
-* Supported by the tool’s existing functionality, not AI-powered.
+⚠️ \* Supported by the tool’s existing functionality, not AI-powered.
