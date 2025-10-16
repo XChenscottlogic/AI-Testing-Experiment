@@ -1,5 +1,15 @@
 # Playwright Tests — AI-Testing-Experiment
 
+Playwright comes with three **Playwright Agents** out of the box: 🎭 **planner**, 🎭 **generator**, and 🎭 **healer**.
+
+These agents can be used **independently**, **sequentially**, or as **chained calls** in the agentic loop.  
+Using them sequentially will produce **test coverage for your product**.
+
+- 🎭 **planner** — explores the app and produces a **Markdown test plan**  
+- 🎭 **generator** — transforms the Markdown plan into **Playwright Test files**  
+- 🎭 **healer** — executes the test suite and **automatically repairs failing tests**
+
+
 Quick notes and run commands for Windows PowerShell.
 
 Prerequisites
