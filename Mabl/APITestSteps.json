@@ -1,0 +1,268 @@
+{
+  "info": {
+    "name": "API test collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "event": [],
+  "item": [
+    {
+      "id": "e961d037-1d35-40ec-96dd-a91a139c8236",
+      "name": "Generate Text Response",
+      "request": {
+        "url": {
+          "raw": "{{@api.url}}/api/generate_text",
+          "host": [
+            "{{@api.url}}"
+          ],
+          "path": [
+            "api",
+            "generate_text"
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"prompt\": \"Explain quantum entanglement.\"}"
+        }
+      },
+      "event": [
+        {
+          "id": "c106e6a3-a960-43ab-8a54-7fc67a50dc25",
+          "listen": "test",
+          "script": {
+            "id": "",
+            "type": "text/javascript",
+            "exec": []
+          },
+          "mablAssertions": [
+            {
+              "id": "0bb437b3-b406-4ba4-aa25-8651e5aba5b3",
+              "description": "Verify successful text generation",
+              "assertTarget": "Status",
+              "assertType": "Equals",
+              "value": "200"
+            },
+            {
+              "id": "3694c727-1dbb-454f-bf33-20d576c54400",
+              "description": "Verify 'generated_text' is present",
+              "assertTarget": "JSONBody",
+              "assertType": "Present",
+              "bodyPath": "generated_text"
+            },
+            {
+              "id": "fc2e217a-8e4a-482e-83f8-b8f180e56c04",
+              "description": "Verify 'token_count' is present and a number",
+              "assertTarget": "JSONBody",
+              "assertType": "GreaterThan",
+              "bodyPath": "token_count",
+              "value": "0"
+            },
+            {
+              "id": "6082596d-229d-4327-80fd-a53b80c738d8",
+              "description": "Verify 'model' is present",
+              "assertTarget": "JSONBody",
+              "assertType": "Present",
+              "bodyPath": "model"
+            }
+          ],
+          "mablVariables": [
+            {
+              "id": "899efa83-4331-4b97-8a57-d6efbfe856e1",
+              "description": "Extract the generated text",
+              "assertTarget": "JSONBody",
+              "bodyPath": "generated_text",
+              "variableName": "generatedText"
+            }
+          ],
+          "mablSnippets": []
+        }
+      ],
+      "mablAuth": {
+        "type": "inherit_from_parent"
+      }
+    },
+    {
+      "id": "23e5b67c-91ee-4a28-b346-13e215973d5e",
+      "name": "Analyze Text Sentiment",
+      "request": {
+        "url": {
+          "raw": "{{@api.url}}/api/analyze_sentiment",
+          "host": [
+            "{{@api.url}}"
+          ],
+          "path": [
+            "api",
+            "analyze_sentiment"
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\"text\": \"I love API testing tools!\"}"
+        }
+      },
+      "event": [
+        {
+          "id": "97af7b2e-4201-4e97-b0bd-986ff2a13408",
+          "listen": "test",
+          "script": {
+            "id": "",
+            "type": "text/javascript",
+            "exec": []
+          },
+          "mablAssertions": [
+            {
+              "id": "e9429c0f-5525-460a-b5f9-384240aeee72",
+              "description": "Verify successful sentiment analysis",
+              "assertTarget": "Status",
+              "assertType": "Equals",
+              "value": "200"
+            },
+            {
+              "id": "5ac5e284-714b-4a21-a028-b8691cbeb4f2",
+              "description": "Verify 'label' is present",
+              "assertTarget": "JSONBody",
+              "assertType": "Present",
+              "bodyPath": "label"
+            },
+            {
+              "id": "b1c78a02-0e45-47d7-b502-e0316dfea73f",
+              "description": "Verify 'confidence_score' is present and a number",
+              "assertTarget": "JSONBody",
+              "assertType": "GreaterThanOrEqualTo",
+              "bodyPath": "confidence_score",
+              "value": "0"
+            },
+            {
+              "id": "2ad5a856-2a2e-4b7d-9f4a-77f15d615c2d",
+              "description": "Verify 'input_text' matches the sent text",
+              "assertTarget": "JSONBody",
+              "assertType": "Equals",
+              "bodyPath": "input_text",
+              "value": "I love API testing tools!",
+              "caseSensitive": true
+            }
+          ],
+          "mablVariables": [
+            {
+              "id": "ef7998fc-e81b-4863-a4ca-eb58e7a11c85",
+              "description": "Extract the sentiment label",
+              "assertTarget": "JSONBody",
+              "bodyPath": "label",
+              "variableName": "sentimentLabel"
+            },
+            {
+              "id": "510e83e9-d7a8-4e28-b4d9-4781ad3cc738",
+              "description": "Extract the confidence score",
+              "assertTarget": "JSONBody",
+              "bodyPath": "confidence_score",
+              "variableName": "confidenceScore"
+            }
+          ],
+          "mablSnippets": []
+        }
+      ],
+      "mablAuth": {
+        "type": "inherit_from_parent"
+      }
+    },
+    {
+      "id": "28d6daf9-68f0-4b15-a294-545ee66ea968",
+      "name": "Get Structured Catalog Data",
+      "request": {
+        "url": {
+          "raw": "{{@api.url}}/api/structured_response",
+          "host": [
+            "{{@api.url}}"
+          ],
+          "path": [
+            "api",
+            "structured_response"
+          ]
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "none"
+        }
+      },
+      "event": [
+        {
+          "id": "95d8cfe3-f710-495b-a429-96aa3a6869a7",
+          "listen": "test",
+          "script": {
+            "id": "",
+            "type": "text/javascript",
+            "exec": []
+          },
+          "mablAssertions": [
+            {
+              "id": "c80e077d-5975-4b2b-a89b-a622ee8f57bc",
+              "description": "Verify successful retrieval of structured data",
+              "assertTarget": "Status",
+              "assertType": "Equals",
+              "value": "200"
+            },
+            {
+              "id": "a56e64fa-a793-4c13-9c4e-cb602e7637ff",
+              "description": "Verify 'catalog_id' is present",
+              "assertTarget": "JSONBody",
+              "assertType": "Present",
+              "bodyPath": "catalog_id"
+            },
+            {
+              "id": "c3b91633-d42c-47f5-987c-1ad988b18294",
+              "description": "Verify 'total_items' is present and greater than 0",
+              "assertTarget": "JSONBody",
+              "assertType": "GreaterThan",
+              "bodyPath": "total_items",
+              "value": "0"
+            },
+            {
+              "id": "5157ea10-fe33-4088-b763-e1dc9da6423e",
+              "description": "Verify 'products' array is present and not empty",
+              "assertTarget": "JSONBody",
+              "assertType": "Present",
+              "bodyPath": "products[0]"
+            },
+            {
+              "id": "307f706d-f79a-4c23-a506-15dd3fa3ea2f",
+              "description": "Verify first product has 'product_id'",
+              "assertTarget": "JSONBody",
+              "assertType": "Present",
+              "bodyPath": "products[0].product_id"
+            },
+            {
+              "id": "634929b8-0a4c-4f10-b396-735051e2783e",
+              "description": "Verify first product has 'name'",
+              "assertTarget": "JSONBody",
+              "assertType": "Present",
+              "bodyPath": "products[0].name"
+            }
+          ],
+          "mablVariables": [],
+          "mablSnippets": []
+        }
+      ],
+      "mablAuth": {
+        "type": "inherit_from_parent"
+      }
+    }
+  ],
+  "mablAuth": {
+    "type": "inherit_from_parent"
+  },
+  "protocolProfileBehavior": {}
+}
