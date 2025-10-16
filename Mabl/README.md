@@ -13,9 +13,12 @@ Mabl is an AI-powered intelligent test automation platform that integrates machi
 
 #### 🔹 AI-Powered Test Creation
 - **GenAI Test Creation Agent:** Automatically generates web, mobile and API tests from natural language prompts.
+  **To Create UI Tests**
+  No human input is required to generate a test from a workflow. For example, Mabl can autonomously decide to navigate to the “News” section of the BBC website and verify the title and content of the first article.
+  ![To Create UI Tests](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Generate%20Steps.png)
   **UI Test Generation**
-  No human input is required to generate a test based on a workflow, for example, Mabl decides to navigate to 'News' on BBC website and then verify the content of the first article.
-  ![UI Test Generation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Generate%20Steps.png)
+  ![UI Test Generation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20UI%20Test%20Generation%201.png)
+  ![UI Test Generation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20UI%20Test%20Generation%202.png)
 - **Model-Based Element Recognition:** Builds adaptive models of UI elements rather than relying on static selectors.  
 - **Expert System + ML Fusion:** Combines rules-based heuristics with real-time AI decision-making for resilient test automation.  
 - **Auto-Healing:** Automatically repairs test scripts when UI or API structures change.  
