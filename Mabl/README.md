@@ -32,6 +32,7 @@ Mabl is an AI-powered intelligent test automation platform that integrates machi
 ![API Test Generation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20AI%20Generation%20for%20API%20test.png)
 ![API Test Assertion](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Generated%20Assertions.png)
 [Generated API Tests](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/APITestSteps.json)
+
 #### 🔹 Visual Find (AI-Based Element Detection)
 - Uses AI to identify elements visually, rather than relying on selectors or text attributes. Visual find is currently supported only for tap steps in mobile tests. 
 - Ideal for elements in **mobile apps**, PDFs, or canvas-based UIs that lack unique identifiers.  
@@ -56,11 +57,16 @@ Mabl is an AI-powered intelligent test automation platform that integrates machi
 - Supported for browser, mobile, and API tests; not supported for performance or crawler plan failures.  
 ![Auto Test Failure Analysis](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Analyse%20Test%20Failure.png)
 
-
 #### 🔹 AI-Based Reporting & Test Impact Analysis
 - Identifies which areas of an application are most affected by recent changes.  
 - Generates human-readable reports and failure insights.  
 - Enables intelligent regression testing and prioritisation.  
+
+#### 🔹 JavaScript snippets
+- Generate one-time or reusable JavaScript snippets to handle advanced or app-specific scenarios.
+
+#### 🔹 Auto Healing
+- Auto-heal helps mabl adapt to the changes so your browser tests keep on working through these inevitable changes. Advanced auto-heal uses generative AI to identify semantic similarities with new text and meaningful attribute values to find a good match.
 
 ---
 
