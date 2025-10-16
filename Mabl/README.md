@@ -31,7 +31,7 @@ Mabl is an AI-powered intelligent test automation platform that integrates machi
 ![Define API Test](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Create%20API%20testing.png)
 ![API Test Generation](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20AI%20Generation%20for%20API%20test.png)
 ![API Test Assertion](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/Screenshot%20Generated%20Assertions.png)
-
+[Generated API Tests](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Mabl/APITestSteps.json)
 #### 🔹 Visual Find (AI-Based Element Detection)
 - Uses AI to identify elements visually, rather than relying on selectors or text attributes. Visual find is currently supported only for tap steps in mobile tests. 
 - Ideal for elements in **mobile apps**, PDFs, or canvas-based UIs that lack unique identifiers.  
