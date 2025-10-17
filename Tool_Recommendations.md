@@ -29,8 +29,8 @@ A concise reference of **AI testing tools** mapped to key testing activities —
 
 | Category | Tool | Description | AI Capabilities | Website |
 |-----------|------|--------------|-----------------|----------|
-| **Tool Prep / Environment Setup** | **ReTest** | AI-based regression testing automation. | Detects UI changes automatically during regression runs. | [retest.de](https://retest.de) |
-| **Environment Creation** | **TestCraft (Perfecto)** | Selenium-based codeless AI automation. | AI self-healing and environment adaptation. | [perfecto.io](https://www.perfecto.io) |
+| **Tool Prep / Environment Setup** |  | | |  |
+| **Environment Creation** |  |  | | |
 | **Data Generation / Execution** | **NVIDIA NeMo Data Designer** | Tool for creating and managing high-quality synthetic datasets. | Uses generative AI to design, expand, and balance datasets for model training and testing. | [developer.nvidia.com/nemo](https://developer.nvidia.com/nemo) |
 
 
