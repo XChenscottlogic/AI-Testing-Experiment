@@ -25,6 +25,10 @@ BrowserStack integrates AI-driven capabilities across its testing ecosystem, ena
 - **(UPCOMING) Test Data Generation:** Produces realistic data to simulate real-world usage and enhance test coverage.
 - **(UPCOMING) Test Plan Creation:** Create test plans based on requirements & past test data.
 
+### Extra Feature
+ The **BrowserStack MCP server** directly connects AI agents and Large Language Models (LLMs) to the BrowserStack’s testing infrastructure and products right from IDE. 
+ For details, see [official documentation](https://www.browserstack.com/docs/browserstack-mcp-server/overview).
+
 ---
 
 ## 2. Typical Use Cases
