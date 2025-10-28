@@ -59,6 +59,8 @@ BrowserStack integrates AI-driven capabilities across its testing ecosystem, ena
 BrowserStack offers tiered pricing based on features and user seats.  
 [Pricing](https://www.browserstack.com/accounts/subscriptions?cycle=annual&live-team-pro-toggle=false&requestly-pro-toggle=false&app-live-pro-toggle=false&live-tt-toggle=false&test-management-pro-toggle=false)
 
+Free plan with limited access is available for some features: accessibility testing, low code automation, test management, Percy(visual testing), testing toolkit,  test reporting & analytics.
+
 ---
 
 ## 6. Recommendation
