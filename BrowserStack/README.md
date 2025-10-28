@@ -13,9 +13,11 @@ BrowserStack integrates AI-driven capabilities across its testing ecosystem, ena
 - **(BETA) AI Test Case Generation:** Automatically creates comprehensive & actionable test cases from prompts, PRDs, user stories, or images. 
 - **(BETA) Identify Duplicate Test Cases:** Identify duplicate test cases (exact same and semantic similar) & get smart suggestions to merge or archive them.  
 - **Self-Healing Automation:** Detects and fixes broken element locators at runtime, reducing automation failures by up to 40%.  
+![Self-Healing](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/BrowserStack/Screenshot%20Self%20healing.png)
 - **(BETA) Low-Code Authoring:** Converts natural language prompts into dynamic, context-aware test steps, accelerating test creation.  
 - **(BETA) Cross-Browser Automation:** Write browser and app tests in natural language and run them across different platforms.
 - **Test Failure Analysis:** Analyses logs to pinpoint root cause of failures and provide actionable fixes. 
+![Test Failure Analysis](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/BrowserStack/Screenshot%20Failure%20Analysis.png)
 - **Issue Detection and Remediation:** Auto-detect accessibility issues and translate detected issues into actionable solutions with fix recommendations.
 - **Visual Review (Percy):** Uses AI to highlight meaningful visual changes while filtering out pixel-level noise.  
 - **Accessibility (Ally) Agents:** Detect and remediate complex WCAG issues with contextual AI guidance.  
