@@ -13,7 +13,7 @@ Applitools is an AI-powered testing platform that revolutionizes how teams test 
 Applitools leverages Large Language Models (LLMs) to convert natural language descriptions into executable test steps.  
 Instead of manually coding test cases, testers can describe their intent in plain English (e.g., *“Fill out the form as a QA Manager and submit it”*).  
 Autonomous AI interprets this testing intent using natural language, analyses the application’s context in real-time, and generates relevant test steps. The generated steps are then verified and finalised by their Deterministic Language Model (DLM).
-![Convert into test steps](image.png)
+![Convert into test steps](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Applitools/Screenshot%20Generate%20test%20steps.png)
 ---
 
 ### 💾 LLM-Assisted Test Data Generation
@@ -27,7 +27,7 @@ This allows tests to run with diverse datasets without manual scripting.
 **Applitools TestGenAI** simplifies the creation of Cypress tests for users of any skill level.  
 It allows testers to record browser interactions, like clicks, typing, uploads, hovers, and assertions. Then automatically generate Cypress code, and create self-healing tests that adapt to UI changes.  
 The tool also generates Page Object Models (POMs), promoting code reusability and test maintainability. It can detect and heal broken selectors automatically during execution. 
-
+![Cypress Code](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Applitools/Screenshot%20TestGenAI.png)
 ---
 
 ### 👁️ Applitools Eyes and Visual AI
@@ -35,7 +35,7 @@ Applitools Eyes is the **core AI-driven validation engine** that powers the plat
 Unlike traditional automation tools that rely on static locators, Eyes analyses visual differences across elements, pages, and environments with human-like perception by using AI-powered **Visual Match Levels**.  
 It can validate entire screens with one visual checkpoint, ensuring comprehensive coverage.
 
-![Visual Testing](image-1.png)
+![Visual Testing](https://github.com/XChenscottlogic/AI-Testing-Experiment/blob/Xin-branch/Applitools/Screenshot%20Visual%20Testing.png)
 ---
 
 ### 🌍 Extended Platform Capabilities
