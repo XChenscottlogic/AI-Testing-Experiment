@@ -49,4 +49,6 @@ Where to change credentials
 
 - `tests/config.ts` contains `VALID_EMAIL` and `VALID_PASSWORD` and `APP_URL`.
 
-If you need me to run/adjust tests further, run the suite locally and paste failures or traces here.
+Click on [Playwright Agents](https://medium.com/@ismailsobhy/ai-powered-test-automation-part-4-complete-guide-to-playwright-agents-planner-generator-healer-d418166afe34) if you would like to find out more
+
+
