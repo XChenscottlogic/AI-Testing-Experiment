@@ -14,7 +14,7 @@ The platform supports modern frameworks such as Selenium, Playwright, Cypress, A
 - Support for Windows, macOS, iOS, and Android.  
 - Access to both emulators/simulators and real device clouds.
 
-- ![Cross Browser Testing](screenshot2.png)
+![Cross Browser Testing](screenshot2.png)
 
 **Automation framework support**  
 - Compatible with Selenium, Playwright, Cypress, WebdriverIO, Appium, and Espresso.  
@@ -36,7 +36,7 @@ The platform supports modern frameworks such as Selenium, Playwright, Cypress, A
 - AI‑assisted analysis to highlight flaky tests, common failure patterns and risk areas.  
 - Natural language interface: ask questions in plain English to uncover insights without manual querying.
 
-- - ![AI Analytics](screenshot3.png)
+![AI Analytics](screenshot3.png)
 
 **Security and compliance**  
 - Enterprise‑grade security (SOC 2 Type II, GDPR, ISO 27001 compliance).  
