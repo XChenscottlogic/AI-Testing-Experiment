@@ -36,6 +36,8 @@ The platform supports modern frameworks such as Selenium, Playwright, Cypress, A
 - AI‑assisted analysis to highlight flaky tests, common failure patterns and risk areas.  
 - Natural language interface: ask questions in plain English to uncover insights without manual querying.
 
+- - ![AI Analytics](screenshot3.png)
+
 **Security and compliance**  
 - Enterprise‑grade security (SOC 2 Type II, GDPR, ISO 27001 compliance).  
 - Secure tunnelling for internal application testing environments.  
