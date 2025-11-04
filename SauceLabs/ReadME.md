@@ -14,6 +14,8 @@ The platform supports modern frameworks such as Selenium, Playwright, Cypress, A
 - Support for Windows, macOS, iOS, and Android.  
 - Access to both emulators/simulators and real device clouds.
 
+- ![Cross Browser Testing](screenshot2.png)
+
 **Automation framework support**  
 - Compatible with Selenium, Playwright, Cypress, WebdriverIO, Appium, and Espresso.  
 - Remote WebDriver (or equivalent) execution via the Sauce cloud.  
