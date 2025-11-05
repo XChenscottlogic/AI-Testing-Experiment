@@ -10,7 +10,7 @@ Functionize AI is an autonomous, AI-powered testing platform built on the concep
 At the core of Functionize’s innovation is the **Agentic Loop**, which enables agents to function autonomously yet cooperatively across the full testing lifecycle.
 
 **Key Capabilities**
-- **Create Agent:** Converts natural language requirements into executable test cases using proprietary GenAI models. It automates test authoring for UI, API, and database scenarios. Functionize claims that they have trained the model based on 
+- **Create Agent:** Converts natural language requirements into executable test cases using proprietary GenAI models. It automates test authoring for UI, API, and database scenarios. Functionize claims that they have trained the model based on the 10 years of testing data from globally deployed applications.
 - **Execute Agent:** Runs large-scale, cloud-based test suites across multiple browsers and environments with self-healing capabilities. 
 - **Diagnose Agent:** Detects and explains test failures in plain English, identifying root causes with data-driven insights and eliminating manual triage.  
 - **Maintain Agent:** Automatically applies fixes and updates to tests without coding, reducing manual maintenance effort.  
