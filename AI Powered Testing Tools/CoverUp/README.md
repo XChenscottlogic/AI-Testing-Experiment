@@ -32,7 +32,6 @@ Together, these features enable teams to shift repetitive unit testing to automa
 ---
 
 ## 2. Typical Use Cases
-0
 - Generating test suites for legacy Python code with little or no test coverage
 - Increasing test coverage thresholds for CI/CD compliance
 - Reducing manual unit test authoring workload
