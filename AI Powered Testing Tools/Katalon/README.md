@@ -1,7 +1,8 @@
-# Katalon Studio
+# Katalon
 
 ## Summary  
 Katalon Studio is an all-in-one test automation IDE and platform designed to support web, mobile (native/hybrid), API and desktop applications. It provides options for low-code/no-code test creation as well as full-code scripting (via Groovy/Java) and integrates into CI/CD pipelines and cloud-based execution. With the rise of AI-augmented testing, Katalon also includes features that help accelerate test case creation, maintenance and visual regression.
+Link: https://katalon.com/
 
 ---
 
